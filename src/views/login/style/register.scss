@@ -1,0 +1,135 @@
+body, .container, .login-wrapper, .form-container, .form-container h2, .form-group, .input-item, .btn, .register-link {
+  font-family: '阿里巴巴普惠体', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:
+          linear-gradient(45deg, rgba(255,226,245,0.8), rgba(255,231,231,0.8)),
+          linear-gradient(-45deg, rgba(255,241,241,0.5), rgba(252,248,255,0.5));
+}
+.login-wrapper {
+  background-color: #fff;
+  width: 358px;
+  height: 500px;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.input-item {
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  border: 0;
+  padding: 4px 0 8px 0;
+  border-bottom: 1.5px solid #eee;
+  font-size: 16px;
+  outline: none;
+  background: transparent;
+  transition: border-color 0.3s;
+}
+.input-item:placeholder {
+  text-transform: uppercase;
+}
+.input-item:focus {
+  border-bottom-color: #a6c1ee;
+}
+.btn {
+  text-align: center;
+  padding: 12px;
+  width: 100%;
+  margin-top: 10px;
+  background-image:
+          linear-gradient(45deg, rgba(255,226,245,0.8), rgba(255,231,231,0.8)),
+          linear-gradient(-45deg, rgba(255,241,241,0.5), rgba(252,248,255,0.5));
+  color: #d26a6a;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  opacity: 0.9;
+  background-image: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+.msg {
+  text-align: center;
+  line-height: 88px;
+}
+a {
+  text-decoration-line: none;
+  color: #d26a6a;
+}
+
+.form-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.form-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0px;
+  color: #666;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.register-link a {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.register-link a:hover {
+  opacity: 0.9;
+  background-image: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+}
+
